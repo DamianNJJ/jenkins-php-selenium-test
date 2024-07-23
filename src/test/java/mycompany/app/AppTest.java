@@ -31,7 +31,7 @@ public class AppTest
 
     @Before
     public void setUp() { 
-		driver = new HtmlUnitDriver(); 
+		driver = new ChromeDriver(); 
 		wait = new WebDriverWait(driver, 10); 
 	} 
 
